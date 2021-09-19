@@ -1,9 +1,10 @@
 ---
-title: Kafka学习
+title: kafka:安装与启动
 date: 2021-09-06 01:50:21
-tags:
+tags:  
 categories: Kafka
 ---
+# kafka
 ## kafka配置文件在docker下的设置
 
 将 `listeners` 设为 `PLAINTEXT://[::1]:9092`
