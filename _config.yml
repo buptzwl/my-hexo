@@ -103,3 +103,9 @@ theme: icarus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+# emoji
+emoji:
+  enable: true
+  className: github-emoji
+  styles:
+  customEmojis:
