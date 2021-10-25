@@ -33,6 +33,15 @@ class Footer extends Component {
                         <a class="footer-logo is-block mb-2" href={siteUrl}>
                             {footerLogo}
                         </a>
+
+                        {/* ICP备案 */}
+                        {/* todo：公安备案 */}
+                        <p class="size-small">
+                            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">京ICP备2021028622号</a>
+                            {/* <span class="post-meta-divider">&nbsp;|&nbsp;</span> */}
+                            {/* <a target="_blank" href="https://beian.miit.gov.cn/" rel="noopener"><img src="www.zhangweilin.com/img/beian.png" /> 京公网安备 XXXXXXXXX号</a> */}
+                        </p>
+
                         <p class="is-size-7">
                             <span dangerouslySetInnerHTML={{ __html: `&copy; ${siteYear} ${author || siteTitle}` }}></span>
                             &nbsp;&nbsp;Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>&nbsp;&&nbsp;
